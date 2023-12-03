@@ -1,0 +1,109 @@
+#footer {
+    background: #222222;
+    padding: 120px 0px;
+
+    .footer_content {
+        width: 1170px;
+        margin: auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+
+        &_about {
+            width: 40%;
+            h3 {
+                color: #fff;
+                font-size: 20px;
+                font-weight: bold;
+                font-family: "Heebo", sans-serif;
+                margin-bottom: 30px;
+                text-transform: uppercase;
+            }
+            p{
+                font-size: 14px;
+                line-height: 24px;
+                font-family: "Roboto", sans-serif;
+                color: #777777;
+                margin-bottom: 30px;
+                span{
+                    color: #faba00;
+                }
+            }
+        }
+        &_newsletter{
+            width: 35%;
+            h3 {
+                color: #fff;
+                font-size: 20px;
+                font-weight: bold;
+                font-family: "Heebo", sans-serif;
+                margin-bottom: 30px;
+                text-transform: uppercase;
+            }
+            p{
+                font-size: 14px;
+                line-height: 24px;
+                font-family: "Roboto", sans-serif;
+                color: #777777;
+                margin-bottom: 30px;
+            }
+            form{
+                input{  
+                    background: #fff;
+                    color: #cccccc;
+                    outline: none;
+                    width: 80%;
+                    border: none;
+                    padding: 0px 15px;
+                    font-size: 14px;
+                    height: 40px;
+                }
+                
+                button{
+                    background-color: #faba00;
+                    color: #fff;
+                    border: none;
+                    padding: 10.5px 15px;
+                    cursor: pointer;
+                }
+            }
+        }
+        &_follow{
+            width: 20%;
+            h3 {
+                color: #fff;
+                font-size: 20px;
+                font-weight: bold;
+                font-family: "Heebo", sans-serif;
+                margin-bottom: 30px;
+                text-transform: uppercase;
+            }
+            p{
+                font-size: 14px;
+                line-height: 24px;
+                font-family: "Roboto", sans-serif;
+                color: #777777;
+                margin-bottom: 10px;
+            }
+            &_icon{
+                ul{
+                    display: flex;
+                    gap: 20px;
+                    li{
+                       
+                        i{
+                            transition: 0.5s all ease;
+                            color: #777777;
+                            font-size: 14px;
+                            &:hover{
+                                color: #faba00;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}

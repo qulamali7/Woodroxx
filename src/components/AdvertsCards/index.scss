@@ -1,0 +1,14 @@
+.adverts_cards{
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    .adverts_card{
+        width: 20%;
+        text-align: center;
+        opacity: 0.6;
+        transition: 0.5s all ease;
+        &:hover{
+            opacity: 1;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+#home_popular{
+    background: #f9f9ff;
+    padding: 120px 0px;
+    .home_popular_content{
+        max-width: 1170px;
+        margin:  auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+}

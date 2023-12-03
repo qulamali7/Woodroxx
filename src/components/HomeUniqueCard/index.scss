@@ -1,0 +1,35 @@
+.home_unique_card {
+    width: 32%;
+    background: #f9f9ff;
+    border-radius: 10px;
+    padding: 40px 60px 40px 40px;
+    margin-bottom: 30px;
+    transition: all 300ms linear 0s;
+
+    &_content {
+        h4 {
+            font-size: 18px;
+            color: #222222;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            transition: all 300ms linear 0s;
+
+            i {
+                font-size: 24px;
+                padding-right: 15px;
+                font-weight: 600;
+            }
+        }
+        p{
+            font-size: 14px;
+            color: #777;
+        }
+    }
+    &:hover{
+        color: #fff;
+        box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.1);
+    }
+    &:hover .home_unique_card_content h4 {
+        color: #faba00;
+    }
+}

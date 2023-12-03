@@ -1,0 +1,105 @@
+#contact {
+    .contact_content {
+        max-width: 1170px;
+        margin: auto;
+        padding: 120px 0px;
+        .contact_map{
+            iframe{
+                width: 100%;
+                border: none;
+            }
+        }
+        .contact_mail{
+            margin-top: 80px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            &_left{
+                display: flex;
+                flex-direction: column;
+                width: 20%;
+                gap: 20px;
+                &_item{
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 20px;
+                    i{
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: #faba00;
+                        font-weight: 600;
+                    }
+                    &_text{
+                        h6{
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: "Roboto", sans-serif;
+                            font-weight: bold;
+                            margin-bottom: 0px;
+                            color: #222222;
+                        }
+                        p{
+                            font-size: 14px;
+                            line-height: 24px;
+                            padding: 2px 0px;
+                        }
+                    }
+                }
+            }
+            &_right{
+                width: 75%;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 40px;
+                &_top_left{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    width: 50%;
+
+                    input{
+                        width: 100%;
+                        font-size: 13px;
+                        color: #999;
+                        padding:10px 20px;
+                        border: 1px solid #eeeeee;
+                        padding-left: 20px;
+                    }
+                }
+                &_top_right{
+                    width: 44.6%;
+                    height: 180px;
+                    textarea{
+                        width: 100%;
+                        height: 100%;
+                        border: 1px solid #eeeeee;
+                        padding: 20px;
+                    }
+                }
+                &_bottom{
+                    width: 100%;
+                    text-align: right;
+                    button{
+                        width: auto;
+                        display: inline-block;
+                        background: #faba00;
+                        padding: 20px 50px;
+                        color: #fff;
+                        font-size: 13px;
+                        font-weight: 500;
+                        border: 1px solid #faba00;
+                        border-radius: 5px;
+                        text-align: center;
+                        cursor: pointer;
+                        transition: all 300ms linear 0s;
+                        &:hover{
+                            cursor: pointer;
+                            background-color: #fff;
+                            color: #faba00;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
